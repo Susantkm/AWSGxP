@@ -38,8 +38,7 @@ def zipthefile(files):
 if __name__ == '__main__':
     # To get cloudformation status with input, output, tags etc
     #session = boto3.Session(
-    #aws_access_key_id='AKIAIWTXRODG2ZBYDKOA',
-    #aws_secret_access_key='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')
+   
 
     #print  ("Region is:", ec2.describe_regions())
     cfn = boto3.client('cloudformation',region_name='us-west-2')
